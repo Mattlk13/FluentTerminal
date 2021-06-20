@@ -28,6 +28,7 @@ A Terminal Emulator based on UWP and web technologies.
 - Search function
 - Configure shell profiles to quickly switch between different shells
 - Explorer context menu integration (Installation script can be found [here](https://github.com/felixse/FluentTerminal/tree/master/Explorer%20Context%20Menu%20Integration))
+- VsCode Extension ([here](https://marketplace.visualstudio.com/items?itemName=Xherdi.fluent-terminal))
 
 ## Screenshots
 
@@ -38,6 +39,7 @@ A Terminal Emulator based on UWP and web technologies.
 - Arabic
 - Arabic (Iraq)
 - Azerbaijani
+- Bosnian
 - Chinese (Simplified)
 - Chinese (Traditional)
 - Dutch
@@ -55,6 +57,7 @@ A Terminal Emulator based on UWP and web technologies.
 - Romanian
 - Russian
 - Spanish
+- Turkish
 - Ukrainian
 
 

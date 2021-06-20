@@ -13,6 +13,7 @@ namespace FluentTerminal.App.Services
             ["ar"] = "العربية",
             ["ar-IQ"] = "اللهجة العراقية",
             ["az-Latn"] = "azərbaycan dili",
+            ["bs"] = "bosanski",
             ["de"] = "Deutsch",
             ["en"] = "English",
             ["eo"] = "Esperanto",
@@ -33,9 +34,11 @@ namespace FluentTerminal.App.Services
             ["ro"] = "Română",
             ["ru"] = "Pусский",
             ["sl"] = "Slovenščina",
+            ["sv"] = "svenska",
             ["tr"] = "Türkçe",
             ["ug-Arab"] = "ئۇيغۇر تىلى",
             ["uk"] = "Українська",
+            ["uz-Latn"] = "O'zbek tili",
             ["zh-Hans"] = "简体中文",
             ["zh-Hant"] = "繁體中文"
         };

@@ -184,7 +184,7 @@ window.createTerminal = (options, theme, keyBindings) => {
 
   setPadding(options.padding);
 
-  let resizeTimeout: number;
+  let resizeTimeout: NodeJS.Timeout;
   window.onresize = function () {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => fitAddon.fit(), 500);
@@ -243,6 +243,9 @@ window.createTerminal = (options, theme, keyBindings) => {
           if (keyBinding.command == 'SelectAll') {
             term.selectAll();
             return false;
+          }
+          if (keyBinding.command == 'CloseSearch') {
+            return true;
           }
 
           e.preventDefault();
@@ -314,5 +317,5 @@ document.oncontextmenu = function () {
 };
 
 function convertBoldText(fontWeight: FontWeight) : FontWeight {
-  return parseInt(fontWeight) > 600 ? '900' : 'bold';
+  return parseInt(fontWeight.toString()) > 600 ? '900' : 'bold';
 }
